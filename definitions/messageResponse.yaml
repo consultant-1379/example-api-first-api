@@ -1,0 +1,11 @@
+type: object
+required:
+  - id
+  - message
+properties:
+  id:
+    type: integer
+    example: 30
+  message:
+    type: string
+    example: Request rate is withing acceptable limits

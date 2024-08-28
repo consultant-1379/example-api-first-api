@@ -1,0 +1,12 @@
+get:
+  summary:
+    Provides message that describes the request rate for the service
+  description: |
+    This message service will provide a text based message on the request rate the service has received ove rthe last hour relative to its SLO. 
+  produces:
+    - application/json
+  responses:
+    200:
+      description: OK
+      schema:
+        $ref: '#/definitions/messageResponse'

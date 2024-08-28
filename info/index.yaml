@@ -1,0 +1,9 @@
+version: 1.0.0
+title: Example API First Example Service
+name: Message Service
+description: >
+  This is an **example** API to demonstrate using the OpenAPI specification as a design
+  first approach to API development
+
+  # Introduction
+  This simple API provides endpoints that provide text messages

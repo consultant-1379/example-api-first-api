@@ -1,0 +1,2 @@
+messageResponse: 
+  $ref: ./messageResponse.yaml
